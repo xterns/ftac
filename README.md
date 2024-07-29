@@ -19,3 +19,9 @@ terraform init
 terraform plan
 terraform apply
 ```
+
+### Get kubeconfig details 
+```
+az aks get-credentials --resource-group cdd94c5795a77b49-rg --name prefix-cdd94c5795a77b49-aks
+
+```
